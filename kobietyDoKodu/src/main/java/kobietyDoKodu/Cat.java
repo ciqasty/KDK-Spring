@@ -41,6 +41,6 @@ public class Cat {
 	}
 	
 	public String introduceYourself() {
-		return "My name is " + name + ", I was born at " + birthDate + ", I weight " + weight + " and my owner's name is " + ownerName + " :)";
+		return "My name is " + name + ", I was born at " + birthDate + ", I weight " + weight + " kg and my owner's name is " + ownerName + " :)";
 	}
 }
