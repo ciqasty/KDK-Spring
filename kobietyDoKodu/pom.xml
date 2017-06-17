@@ -5,4 +5,18 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>KDKProject</name>
   <description>Projekt oparty o tutoriale ze strony kobietydokodu.pl</description>
+  <url>kobietydokodu.pl</url>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>4.3.9.RELEASE</version>
+  	</dependency>
+  </dependencies>
+  
+  <packaging>pom</packaging>
+  <modules>
+  	<module>cats-domain</module>
+  	<module>cats-application</module>
+  </modules>
 </project>
